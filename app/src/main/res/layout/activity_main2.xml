@@ -1,67 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        android:layout_width="match_parent" android:layout_height="match_parent"
         tools:context=".Main2Activity">
 
 
     <ha.thanh.myapplication.RoundedButton
+            android:id="@+id/myButton"
             android:layout_width="300dp"
-            app:buttonCornerRadius="35dp"
-            app:buttonStartColor="@color/yellow"
-            app:buttonEndColor="@color/colorAccent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
             android:text="Vi Thị Hương"
             android:textColor="#ffffff"
             android:textStyle="bold"
-            android:gravity="center"
-            android:layout_margin="10dp"
-            android:layout_height="50dp"/>
-    <ha.thanh.myapplication.RoundedButton
-            android:layout_width="300dp"
             app:buttonCornerRadius="35dp"
-            app:buttonStartColor="@color/green"
-            android:text="Xinh đẹp"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:gravity="center"
-            app:buttonEndColor="@color/blue"
-            android:layout_margin="10dp"
-            android:layout_height="50dp"/>
-    <ha.thanh.myapplication.RoundedButton
-            android:layout_width="300dp"
-            app:buttonCornerRadius="35dp"
-            app:buttonStartColor="@color/yellow"
-            android:text="Tóc đen"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:gravity="center"
-            app:buttonEndColor="@color/green"
-            android:layout_margin="10dp"
-            android:layout_height="50dp"/>
-    <ha.thanh.myapplication.RoundedButton
-            android:layout_width="300dp"
-            app:buttonCornerRadius="35dp"
-            android:text="SOME TEXT"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:gravity="center"
-            app:buttonStartColor="@color/red"
-            app:buttonEndColor="@color/yellow"
-            android:layout_margin="10dp"
-            android:layout_height="50dp"/>
-    <ha.thanh.myapplication.RoundedButton
-            android:layout_width="300dp"
-            app:buttonCornerRadius="35dp"
-            android:text="SOME TEXT"
-            android:textColor="#ffffff"
-            android:textStyle="bold"
-            android:gravity="center"
-            app:buttonStartColor="@color/violet"
             app:buttonEndColor="@color/colorAccent"
-            android:layout_margin="10dp"
+            app:buttonStartColor="@color/yellow" />
+
+    <Button
+            android:layout_width="300dp"
+            android:background="@drawable/shape_default"
             android:layout_height="50dp"/>
+
 </LinearLayout>
